@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "gan-test"
+version = "0.1.0"
+description = ""
+authors = ["Tom van de Poll <tom.van.de.poll@alliander.com>"]
+readme = "README.md"
+packages = [{include = "gan_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
